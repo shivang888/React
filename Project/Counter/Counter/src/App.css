@@ -1,0 +1,38 @@
+body{
+  background-color: grey;
+  
+}
+
+@keyframes FontChange {
+  20%{
+    color: brown;
+  }40%{
+    color: blanchedalmond;
+  }60%{
+    color: cadetblue;
+  }80%{
+    color: red;
+  }100%{
+    color: white;
+  }
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+h1{
+  animation: FontChange 2s linear infinite;
+  font-size: 70px;
+}
+h2{
+  font-size: 65px;
+  color: black;
+}
+
+#inc{background-color: green;margin: 0px 25px;}
+#dec{background-color: red;}
+
+
