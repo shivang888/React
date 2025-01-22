@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+}
+
+.mainDiv{
+   width: 1520px; 
+}
+
+.background-header {
+  height: 90vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.background-header h1, span {
+  font-family: 'Fredoka One', cursive;
+  color: #000;
+}
+
+
+
+.btn-grid {
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.btn {
+  height: 90px;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
+.btn-tomato {
+  width: 100%;
+  background-color: #FF6347;
+}
+.btn-violet {
+  background-color: #EE82EE;
+}
+.btn-wheat {
+  background-color: #F5DEB3;
+}
+.btn-yellow {
+  background-color: #FFFF00;
+}
+.btn-yellowgreen {
+  background-color: #9ACD32;
+}
