@@ -2,27 +2,48 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import './index.css'
+import { Link, Route, Routes } from 'react-router-dom'
+import Home from './Components/Home'
+import Rooms from './Components/Rooms'
+import Gallery from './Components/Gallery'
+import ContactUs from './Components/ContactUs'
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
+      
 
   return (
     <>
-      
+    {/* Navbar Contain started */}
+    <nav class="navbar">
+    <div class="logo">
+      <a href="#"><img src="https://shivdhararesorts.com/images/logo.png" alt="" /></a>
+    </div>
+    <input type="checkbox" id="toggle-menu" class="toggle-menu"/>
+    <label for="toggle-menu" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <ul class="nav-links">
+      <Link to={'/'}><li>Home</li></Link>
+      <Link to={'/Rooms'}><li>Rooms</li></Link>
+      <Link to={'Gallery'}><li>Gallery</li></Link>
+      <Link to={'/ContactUs'}><li>ContactUs</li></Link>
+    </ul>
+  </nav> 
 
-<div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-    </a>
-    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        Read more
-        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-        </svg>
-    </a>
-</div>
+  <Routes>
+    <Route path='/' element={<Home/>}></Route>
+    <Route path='/Rooms' element={<Rooms/>}></Route>
+    <Route path='/Gallery' element={<Gallery/>}></Route>
+    <Route path='/ContactUs' element={<ContactUs/>}></Route>
+  </Routes>
 
+          
+  
     </>
   )
 }
