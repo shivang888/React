@@ -93,3 +93,16 @@ function FormPage() {
 }
 
 export default FormPage;
+
+{/* <input
+id="userName"
+type="text"
+placeholder="Enter your username"
+value={userName}
+onChange={(e) => setUserName(e.target.value)}
+className="form-input"
+/> */}
+{/* <p style={{ color: "red" }}>{error && error.password}</p> */}
+// {showData && <p> {showData.userName}</p>}
+//         {showData && <p> {showData.email}</p>}
+//         {showData && <p> {showData.password}</p>}
