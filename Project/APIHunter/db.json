@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "name": "yashrajsinh dodiya",
+      "email": "Y1@gmail.com",
+      "password": "123",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 999.99,
+      "description": "High-performance laptop with latest specifications"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "price": 699.99,
+      "description": "Latest model smartphone with advanced features"
+    },
+    {
+      "id": 3,
+      "name": "Headphones",
+      "price": 199.99,
+      "description": "Wireless noise-canceling headphones"
+    },
+    {
+      "name": "shoes",
+      "price": 20,
+      "description": "nike skyblue ",
+      "id": 4
+    },
+    {
+      "name": "shoes",
+      "price": 20,
+      "description": "12345",
+      "id": 5
+    },
+    {
+      "name": "shoes",
+      "price": 20,
+      "description": "dwccdcdcdcdcdccsdc",
+      "id": 6
+    }
+  ]
+}
