@@ -1,0 +1,357 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "b25a",
+      "name": "yashrajsinh dodiya",
+      "email": "Y@gmail.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "id": "b550",
+      "name": "Mast & Harbour",
+      "email": "yashraj@gmail.com",
+      "password": "654321",
+      "role": "user"
+    },
+    {
+      "id": "bcbf",
+      "name": "Pruthveerajsinh Dodiya",
+      "email": "pruthveerajsinhdodiya@gmail.com",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "id": "b514",
+      "name": "rushi",
+      "email": "pd@gmail.com",
+      "password": "123",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": "2",
+      "name": "Charcoal Grey Slim Fit Shirt",
+      "description": "Powerful laptop for professional use",
+      "price": 1299.99,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS3986-07_1_6924772e-a6dd-4391-a7ea-8c5543ccac70.jpg?v=1741094497&quality=50",
+      "category": "electronics"
+    },
+    {
+      "id": "3",
+      "name": "Dark Brown Textured Slim Fit Shirt",
+      "description": "Premium noise-canceling headphones",
+      "price": 699.99,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS3901-03_1_792210ea-3e33-46fc-bccc-1630ffeac1d1.jpg?v=1740121027&quality=50",
+      "category": "accessories"
+    },
+    {
+      "id": "4",
+      "name": "Mast & Harbour",
+      "description": "Men White & Blue Ombre Dyed Casual Pure Cotton Shirt\n",
+      "price": 300,
+      "image": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/17356756/2024/8/8/2ee5e0e4-1706-461f-a353-248f28dc2ca81723123099912-Mast--Harbour-Men-White--Blue-Ombre-Dyed-Casual-Pure-Cotton--1.jpg",
+      "category": "clothing"
+    },
+    {
+      "id": "5",
+      "name": "Black Textured Slim Fit Polo T-Shirt",
+      "description": "wjkl",
+      "price": 700,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mst2559-05_1_ab044f29-841a-48d2-886f-b60abdbf03ce.jpg?v=1741196120&quality=50",
+      "category": "clothing"
+    },
+    {
+      "id": "6",
+      "name": "Bordeaux Ribbed Mint Green Tank ",
+      "description": "wjkl",
+      "price": 300,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MST2727-02_1_50cfd455-2978-4e3c-91bb-67e264659185.jpg?v=1742540662&quality=50",
+      "category": "clothing"
+    },
+    {
+      "id": "7",
+      "name": "Bordeaux Ribbed White Tank Top",
+      "description": "wjkl",
+      "price": 3000,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MST2727-01_3_b26f6456-c365-44f7-a517-aceae2b2c28d.jpg?v=1742540678&quality=50",
+      "category": "clothing"
+    },
+    {
+      "id": "8",
+      "name": "Bordeaux Burgundy Textured Rela",
+      "description": "wjkl",
+      "price": 8900,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MST2684-01_1_df3cb126-157a-4630-b197-db0c52efbc3a.jpg?v=1742540652&quality=50",
+      "category": "clothing"
+    },
+    {
+      "id": "9",
+      "name": "Off White Stripes Slim Fit T-Shirt",
+      "description": "wjkl",
+      "price": 7800,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mst2568-02_1.jpg?v=1741887663&quality=50",
+      "category": "clothing"
+    },
+    {
+      "id": "10",
+      "name": "Black Textured Slim Fit Shirt",
+      "description": "wjkl",
+      "price": 9000,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS3901-04_1_3159b917-745d-4e07-bbbf-749576b1e8c1.jpg?v=1742393378&quality=50",
+      "category": "clothing"
+    },
+    {
+      "id": "11",
+      "name": "Gear Up Black Graphic Print Oversi",
+      "description": "wjkl",
+      "price": 7800,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mst2515-01_4_de988d79-9c3a-4842-8c0b-d4d36f52e0fd.jpg?v=1741196138&quality=50",
+      "category": "clothing"
+    },
+    {
+      "id": "12",
+      "name": "Light Beige Textured Slim Fit Shirt",
+      "description": "wjkl",
+      "price": 300,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS3898-01_1_83b100df-1a32-4aee-8936-d5d0be29827c.jpg?v=1739973913&quality=50",
+      "category": "clothing"
+    },
+    {
+      "id": "13",
+      "name": "Olive Textured Slim Fit Shirt",
+      "description": "wjkl",
+      "price": 300,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS3898-02_1_4cb19b73-840e-4be9-984b-5df6c02ece2c.jpg?v=1740577271&quality=50",
+      "category": "clothing"
+    }
+  ],
+  "cart": [
+    {
+      "id": "bd74",
+      "productId": "bc6b",
+      "name": "Black Textured Slim Fit Shirt",
+      "price": 9000,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS3901-04_1_3159b917-745d-4e07-bbbf-749576b1e8c1.jpg?v=1742393378&quality=50",
+      "quantity": 7
+    },
+    {
+      "id": "eb7b",
+      "productId": "2",
+      "name": "Charcoal Grey Slim Fit Shirt",
+      "price": 1299.99,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS3986-07_1_6924772e-a6dd-4391-a7ea-8c5543ccac70.jpg?v=1741094497&quality=50",
+      "quantity": 1
+    },
+    {
+      "id": "08a4",
+      "productId": "3",
+      "name": "Dark Brown Textured Slim Fit Shirt",
+      "price": 699.99,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS3901-03_1_792210ea-3e33-46fc-bccc-1630ffeac1d1.jpg?v=1740121027&quality=50",
+      "quantity": 1
+    },
+    {
+      "id": "2378",
+      "productId": "9ddc",
+      "name": "Mast & Harbour",
+      "price": 300,
+      "image": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/17356756/2024/8/8/2ee5e0e4-1706-461f-a353-248f28dc2ca81723123099912-Mast--Harbour-Men-White--Blue-Ombre-Dyed-Casual-Pure-Cotton--1.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "5409",
+      "productId": "6",
+      "name": "Bordeaux Ribbed Mint Green Tank ",
+      "price": 300,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MST2727-02_1_50cfd455-2978-4e3c-91bb-67e264659185.jpg?v=1742540662&quality=50",
+      "quantity": 1
+    },
+    {
+      "id": "d27a",
+      "productId": "7",
+      "name": "Bordeaux Ribbed White Tank Top",
+      "price": 3000,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MST2727-01_3_b26f6456-c365-44f7-a517-aceae2b2c28d.jpg?v=1742540678&quality=50",
+      "quantity": 1
+    },
+    {
+      "id": "ab72",
+      "productId": "8",
+      "name": "Bordeaux Burgundy Textured Rela",
+      "price": 8900,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MST2684-01_1_df3cb126-157a-4630-b197-db0c52efbc3a.jpg?v=1742540652&quality=50",
+      "quantity": 1
+    },
+    {
+      "id": "d46d",
+      "productId": "10",
+      "name": "Black Textured Slim Fit Shirt",
+      "price": 9000,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS3901-04_1_3159b917-745d-4e07-bbbf-749576b1e8c1.jpg?v=1742393378&quality=50",
+      "quantity": 1
+    },
+    {
+      "id": "6f96",
+      "productId": "11",
+      "name": "Gear Up Black Graphic Print Oversi",
+      "price": 7800,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mst2515-01_4_de988d79-9c3a-4842-8c0b-d4d36f52e0fd.jpg?v=1741196138&quality=50",
+      "quantity": 1
+    },
+    {
+      "id": "b00e",
+      "productId": "12",
+      "name": "Light Beige Textured Slim Fit Shirt",
+      "price": 300,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS3898-01_1_83b100df-1a32-4aee-8936-d5d0be29827c.jpg?v=1739973913&quality=50",
+      "quantity": 1
+    },
+    {
+      "id": "2494",
+      "productId": "13",
+      "name": "Olive Textured Slim Fit Shirt",
+      "price": 300,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS3898-02_1_4cb19b73-840e-4be9-984b-5df6c02ece2c.jpg?v=1740577271&quality=50",
+      "quantity": 3
+    },
+    {
+      "id": "8209",
+      "productId": "9",
+      "name": "Off White Stripes Slim Fit T-Shirt",
+      "price": 7800,
+      "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mst2568-02_1.jpg?v=1741887663&quality=50",
+      "quantity": 1
+    }
+  ],
+  "userLogs": [
+    {
+      "id": "1742564986466",
+      "userId": "1",
+      "email": "admin@example.com",
+      "name": "Admin User",
+      "timestamp": "2025-03-21T13:49:46.466Z",
+      "status": "Active"
+    },
+    {
+      "id": "1742565001310",
+      "userId": "1",
+      "email": "admin@example.com",
+      "name": "Admin User",
+      "timestamp": "2025-03-21T13:50:01.310Z",
+      "status": "Logged Out"
+    },
+    {
+      "id": "1742565010642",
+      "userId": "b25a",
+      "email": "Y@gmail.com",
+      "name": "yashrajsinh dodiya",
+      "timestamp": "2025-03-21T13:50:10.642Z",
+      "status": "Active"
+    },
+    {
+      "id": "1742565014048",
+      "userId": "b25a",
+      "email": "Y@gmail.com",
+      "name": "yashrajsinh dodiya",
+      "timestamp": "2025-03-21T13:50:14.048Z",
+      "status": "Logged Out"
+    },
+    {
+      "id": "1742565048477",
+      "userId": "b550",
+      "email": "yashraj@gmail.com",
+      "name": "Mast & Harbour",
+      "timestamp": "2025-03-21T13:50:48.477Z",
+      "status": "Logged Out"
+    },
+    {
+      "id": "1742565058370",
+      "userId": "1",
+      "email": "admin@example.com",
+      "name": "Admin User",
+      "timestamp": "2025-03-21T13:50:58.370Z",
+      "status": "Active"
+    },
+    {
+      "id": "1742568217776",
+      "userId": "b25a",
+      "email": "Y@gmail.com",
+      "name": "yashrajsinh dodiya",
+      "timestamp": "2025-03-21T14:43:37.776Z",
+      "status": "Logged Out"
+    },
+    {
+      "id": "1742568229830",
+      "userId": "1",
+      "email": "admin@example.com",
+      "name": "Admin User",
+      "timestamp": "2025-03-21T14:43:49.830Z",
+      "status": "Active"
+    },
+    {
+      "id": "1742575983709",
+      "userId": "bcbf",
+      "email": "pruthveerajsinhdodiya@gmail.com",
+      "name": "Pruthveerajsinh Dodiya",
+      "timestamp": "2025-03-21T16:53:03.708Z",
+      "status": "Active"
+    },
+    {
+      "id": "1742576057229",
+      "userId": "bcbf",
+      "email": "pruthveerajsinhdodiya@gmail.com",
+      "name": "Pruthveerajsinh Dodiya",
+      "timestamp": "2025-03-21T16:54:17.229Z",
+      "status": "Logged Out"
+    },
+    {
+      "id": "1742576095644",
+      "userId": "bcbf",
+      "email": "pruthveerajsinhdodiya@gmail.com",
+      "name": "Pruthveerajsinh Dodiya",
+      "timestamp": "2025-03-21T16:54:55.644Z",
+      "status": "Active"
+    },
+    {
+      "id": "1742581325254",
+      "userId": "bcbf",
+      "email": "pruthveerajsinhdodiya@gmail.com",
+      "name": "Pruthveerajsinh Dodiya",
+      "timestamp": "2025-03-21T18:22:05.254Z",
+      "status": "Logged Out"
+    },
+    {
+      "id": "1742581357242",
+      "userId": "b514",
+      "email": "pd@gmail.com",
+      "name": "rushi",
+      "timestamp": "2025-03-21T18:22:37.242Z",
+      "status": "Active"
+    },
+    {
+      "id": "1742581369563",
+      "userId": "b514",
+      "email": "pd@gmail.com",
+      "name": "rushi",
+      "timestamp": "2025-03-21T18:22:49.563Z",
+      "status": "Logged Out"
+    },
+    {
+      "id": "1742581388763",
+      "userId": "bcbf",
+      "email": "pruthveerajsinhdodiya@gmail.com",
+      "name": "Pruthveerajsinh Dodiya",
+      "timestamp": "2025-03-21T18:23:08.763Z",
+      "status": "Active"
+    }
+  ]
+}
